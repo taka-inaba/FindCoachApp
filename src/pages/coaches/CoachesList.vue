@@ -1,7 +1,9 @@
 <template>
-<div>
+<section>
+  <div>
     Filter
-</div>
+  </div>
+</section>
 </template>
 
 <style>
