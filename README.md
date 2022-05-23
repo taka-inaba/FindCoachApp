@@ -32,3 +32,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 https://qiita.com/kskinaba/items/44077529ff2abcd1fcd4
 https://prograshi.com/platform/docker/create-vuejs-on-docker/
 
+#### note
+
+- parser: 'babel-eslint',
+are needed in .eslintrc.json otherwise "import()" will cause an error. But if you add it, it will cause another error if you run it again
